@@ -1,0 +1,55 @@
+# Latex related #
+#################
+*.aux
+*.blg
+*.pdf
+*.div
+*.dvi
+*.bbl
+*.ps
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.xml
+*.lst
+*.pyc
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+parse[tT]rees/
+database/
+generated/
+JSDeltaBugs/
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.out
+*.dem
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

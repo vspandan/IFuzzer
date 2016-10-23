@@ -1,0 +1,2 @@
+Main-Class: langparser.CodeFragmentExtractor
+Class-Path: langparser/antlr-4.5-rc-2-complete.jar

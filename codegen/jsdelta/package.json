@@ -1,0 +1,55 @@
+{
+  "name": "jsdelta",
+  "version": "0.3.1",
+  "author": {
+    "name": "Max Schaefer",
+    "email": "xiemaisi@gmail.com"
+  },
+  "description": "A delta debugger for JavaScript",
+  "dependencies": {
+    "escodegen": "1.6.1",
+    "esprima": "2.2.0",
+    "estraverse": "4.0.0",
+    "execSync": "1.0.2"
+  },
+  "license": "Eclipse",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wala/jsdelta.git"
+  },
+  "bin": {
+    "jsdelta": "./delta.js"
+  },
+  "gitHead": "731760f8b8ee9bc03165eadf4f4bddff14f8ed7a",
+  "bugs": {
+    "url": "https://github.com/wala/jsdelta/issues"
+  },
+  "homepage": "https://github.com/wala/jsdelta#readme",
+  "_id": "jsdelta@0.3.1",
+  "scripts": {},
+  "_shasum": "685a8fbbb59c59a65e05996d5755c0f94905d327",
+  "_from": "jsdelta@",
+  "_resolved": "http://registry.npmjs.org/jsdelta/-/jsdelta-0.3.1.tgz",
+  "_npmVersion": "2.11.3",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "msridhar",
+    "email": "msridhar@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "xiemaisi",
+      "email": "xiemaisi@gmail.com"
+    },
+    {
+      "name": "msridhar",
+      "email": "msridhar@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "685a8fbbb59c59a65e05996d5755c0f94905d327",
+    "tarball": "http://registry.npmjs.org/jsdelta/-/jsdelta-0.3.1.tgz"
+  },
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}

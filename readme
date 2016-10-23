@@ -1,0 +1,16 @@
+1. Mercurial
+2. Git Hub and Git GUI
+3. autoconf
+4. jythoN
+5. python
+6. jdk8
+7. Valgrind
+8 install libX11-dev libxext-dev libxrender-dev libxtst-dev libxt-dev
+
+depot_tools
+setuptools_python/jython
+pip_python/jython
+js_1_5
+js_31
+v8
+js_31beautify
