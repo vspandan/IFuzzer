@@ -1,6 +1,6 @@
-if [ "$1" == "-c" ]; then
+if [ "$1" == "-c" ]  && [ $# -eq 2 ] && [ -f langparser/$2 ]; then
 	cd langparser
-	java -jar antlr-4.5-rc-2-complete.jar -package langparser ECMAScript.g4
+	java -jar antlr-4.5-rc-2-complete.jar -package langparser $2
 	javac -cp "antlr-4.5-rc-2-complete.jar" *.java
 	cd ..
 	jar cvfm ECMAScript.jar langparser/Manifest.txt langparser/*.class langparser/antlr-4.5-rc-2-complete.jar
@@ -22,6 +22,6 @@ elif [ "$1" == "-g" ]; then
 else
 	echo "run [options]"
 	echo "\"-g\" Generation Fragments "
-	echo "\"-s\" Spidermonkey 31"
-	echo "\"-s\" Generate Parser"
+	echo "\"-s\" Target"
+	echo "\"-c <grammar spec file> \" Generate Parser"
 fi;
