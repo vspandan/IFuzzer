@@ -158,7 +158,7 @@ class GECodeGenerator(object):
             makedirs(database)
         fileList1=listdir(database)
         while True:
-            input1=raw_input("Do you want to Append Fragment Pool ? Y/N : ")
+            input1=raw_input("Do you want to Append Fragment Pool ? y/n : ")
             if input1 in ['y','n']:
                 if input1=='y':
                     raw_input("Updating Existing Fragment Pool\n Press any key to continue...")
@@ -168,7 +168,7 @@ class GECodeGenerator(object):
                         remove(database+"/"+f)
                 break;
             else:
-                print "Answer must be 'Y' or 'N'"
+                print "Answer must be 'y' or 'n'"
         count = 0
         for f in fileList:
             count+=1

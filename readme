@@ -1,9 +1,24 @@
 1. Mercurial
 2. Git Hub and Git GUI
 3. autoconf
-4. jythoN
+4. jdk8
+   $ sudo apt-get install default-jre
+
 5. python
-6. jdk8
+6. jython and library
+   mac : 
+   $ brew install jython
+
+   linux :
+   $ wget http://search.maven.org/remotecontent?filepath=org/python/jython-installer/2.7.0/jython-installer-2.7.0.jar
+   $ java -jar jython-installer-2.7.0.jar
+
+   go to your jython path
+   $ cd /home/osboxes/jython2.7.0/ 
+   $ cd bin
+   $ ./pip install jsbeautifier
+   $ ./pip install lizard   
+
 7. Valgrind
 8 install libX11-dev libxext-dev libxrender-dev libxtst-dev libxt-dev
 
@@ -13,4 +28,3 @@ pip_python/jython
 js_1_5
 js_31
 v8
-js_31beautify
