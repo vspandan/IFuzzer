@@ -669,6 +669,8 @@ class GrammaticalEvolution(object):
                             commonNonTerm=[val for val in child1.non_term if (val in set(child2.non_term))]
 
                         trail=0
+                        et1=None
+                        et2=None
                         while trail<5:
                         
                             trail += 1
