@@ -1,55 +1,40 @@
-# Latex related #
-#################
-*.aux
-*.blg
-*.pdf
-*.div
-*.dvi
-*.bbl
-*.ps
+HELP.md
+/target/
+!.mvn/wrapper/maven-wrapper.jar
 
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-*.xml
-*.lst
-*.pyc
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.metadata/
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.rar
-*.tar
-*.zip
-parse[tT]rees/
-database/
-generated/
-JSDeltaBugs/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
-*.out
-*.dem
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
 
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+### VS Code ###
+.vscode/
+
+
+libs/
+target/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.DS*
